@@ -33,7 +33,8 @@
 
   @media screen and (max-width: 888px) {
     nav a {
-      padding: 1rem 0.33rem;
+      font-size: 1.33rem;
+      padding: 1rem 0.25rem;
     }
   }
 

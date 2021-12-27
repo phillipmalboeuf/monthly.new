@@ -26,7 +26,9 @@
 </script>
 
 <section>
-  <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
+  <center>
+    <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
+  </center>
 </section>
 
 <section id="reservations" class="{grid({ columns: 3 })}">

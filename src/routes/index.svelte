@@ -34,7 +34,7 @@
   <article>
     <center>
       <h4>{name}</h4>
-      <h6>{title}{#if insta} – <a href="https://instagram.com/{insta}" rel="external" target="_blank">@{insta}</a>{/if}</h6>
+      <h6>{title}{#if insta}&nbsp;<a href="https://instagram.com/{insta}" rel="external" target="_blank">@{insta}</a>{/if}</h6>
       <a class="{btn()}" {href} rel="external" target="_blank">Prendre un rendez-vous</a>
     </center>
   </article>

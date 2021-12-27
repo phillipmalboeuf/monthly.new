@@ -16,14 +16,14 @@
       name: 'Mitch Brown',
       title: 'Barbier',
       insta: '_mitchsbbarber',
-      href: 'https://getsquire.pro/mitch-brown',
+      href: 'https://online.getsquire.com/book/mitch-brown-barber-montreal/professional/mitch-brown',
       photo: 'https://images.ctfassets.net/igsltvx7i8jl/6R5V61HjIzvwSn0yJuKVSm/23529110f792afbb50a6889b9262c807/mitch.jpg'
     },
     {
       name: 'Andy Cha',
       title: 'Barbier',
       // insta: '_mitchsbbarber',
-      href: 'https://getsquire.pro/andy-cha-8',
+      href: 'https://online.getsquire.com/book/andy-cha-montreal/barber/andy-cha-8',
       photo: 'https://images.ctfassets.net/igsltvx7i8jl/5N0raa9TQOAzp4jU9T6oJS/adb00155216003310fed25254f532353/andy.jpg'
     }
   ]

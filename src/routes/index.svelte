@@ -29,6 +29,11 @@
   ]
 
   const map = 'https://images.ctfassets.net/igsltvx7i8jl/6VqXMqVrHMeOd6ptrEih2d/c74219985ae574d9597d06b03cae533f/map_monthly.png'
+
+  function click(name: string) {
+    // @ts-ignore
+    ga && ga("send", "event", "reservations", "click", name)
+  }
 </script>
 
 <svelte:head>
@@ -53,14 +58,14 @@
   {#each barbers as { name, href, insta, title, photo }}
   <article>
     <center>
-      <a {href} rel="external" target="_blank">
+      <a {href} on:click={() => click(name)} rel="external" target="_blank">
         <figure>
           <Picture url={photo} title={name} small ar={0.85} />
         </figure>
       </a>
       <h4>{name}</h4>
       <h6>{title}{#if insta}&nbsp;<a href="https://instagram.com/{insta}" rel="external" target="_blank">@{insta}</a>{/if}</h6>
-      <a class="{btn()}" {href} rel="external" target="_blank">Prendre un rendez-vous</a>
+      <a class="{btn()}" {href} on:click={() => click(name)} rel="external" target="_blank">Prendre un rendez-vous</a>
     </center>
   </article>
   {/each}

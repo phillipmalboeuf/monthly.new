@@ -31,6 +31,20 @@
   const map = 'https://images.ctfassets.net/igsltvx7i8jl/6VqXMqVrHMeOd6ptrEih2d/c74219985ae574d9597d06b03cae533f/map_monthly.png'
 </script>
 
+<svelte:head>
+  <title>Barber – Monthly Studio</title>
+  <meta property="og:title" content="Barber – Monthly Studio" />
+  <meta name="twitter:title" content="Barber – Monthly Studio">
+
+  <meta name="description" content="Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.">
+  <meta property="og:description" content="Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.">
+  <meta name="twitter:description" content="Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.">
+
+  <meta property="og:image" content="{map}?w=1200&h=630">
+  <meta name="twitter:image" content="{map}?w=600&h=314">
+  <meta name="twitter:card" value="summary_large_image">
+</svelte:head>
+
 <section class="right">
   <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
 </section>
@@ -61,9 +75,9 @@
   </a>
 </section>
 
-<section id="produits" class="{hero()}" style="background-image:url(https://saturdays.imgix.net/images/WiseFamilyBanner.jpg?auto=format,compress&h=931&w=1400)">
+<!-- <section id="produits" class="{hero()}" style="background-image:url(https://saturdays.imgix.net/images/WiseFamilyBanner.jpg?auto=format,compress&h=931&w=1400)">
   <a class="{btn({ color: 'white' })}" href="https://wisemenscare.com/" rel="external" target="_blank">Les produits Wise</a>
-</section>
+</section> -->
 
 <style>
   section {

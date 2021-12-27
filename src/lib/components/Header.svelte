@@ -6,7 +6,7 @@
 <header>
   <nav class="h4">
     <a href="/#reservations">Réservations</a>
-    <a href="/#produits">Produits</a>
+    <!-- <a href="/#produits">Produits</a> -->
     <a href="/#contact">Contact</a>
   </nav>
 

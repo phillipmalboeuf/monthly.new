@@ -10,10 +10,10 @@ export const btn = recipe({
     border: '2px solid',
     display: 'inline-block',
     fontFamily: vars.fonts.heading,
-    transition: '333ms color',
     selectors: {
-      '&:hover': {
-        color: vars.colors.red
+      '&:hover, &:focus': {
+        color: vars.colors.red,
+        textDecoration: 'none'
         // background: 'var(--hover-color)',
         // border: '1px solid transparent'
       }

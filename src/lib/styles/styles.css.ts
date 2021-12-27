@@ -62,10 +62,7 @@ globalStyle('body', {
 })
 
 globalStyle('main', {
-  paddingLeft: vars.space.large,
-  paddingRight: vars.space.large,
-  paddingBottom: vars.space.medium,
-  paddingTop: vars.space.medium,
+  padding: vars.space.large,
   // minHeight: '100vh'
 })
 
@@ -75,7 +72,7 @@ globalStyle('h1, h2, h3', {
   lineHeight: 1
 })
 
-globalStyle('h2, .h2, h3', {
+globalStyle('h2, .h2, h3, .h3', {
   fontSize: vars.sizes.big,
   '@media': {
     'screen and (max-width: 888px)': {
@@ -115,7 +112,14 @@ globalStyle('small', {
 })
 
 globalStyle('a', {
-  color: 'currentColor'
+  color: 'currentColor',
+  textDecoration: 'none'
+})
+
+globalStyle('a:hover, a:focus', {
+  textDecoration: 'underline',
+  textDecorationThickness: '0.1em',
+  textUnderlineOffset: '0.2em'
 })
 
 globalStyle('[id]', {

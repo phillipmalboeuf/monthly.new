@@ -7,6 +7,7 @@ export const hero = recipe({
     backgroundColor: vars.colors.grey,
     backgroundPosition: 'center',
     backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -22,7 +23,7 @@ export const hero = recipe({
   variants: {
     size: {
       small: fmc({ padding: 'small' }),
-      medium: [fmc({ padding: 'medium', fontSize: 'medium' }), { minHeight: '33vh' }],
+      medium: [fmc({ padding: 'medium', fontSize: 'medium' }), { minHeight: '33vw' }],
       large: fmc({ padding: 'large' })
     },
   },

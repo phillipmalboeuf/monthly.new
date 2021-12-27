@@ -1,6 +1,6 @@
 <script lang="ts">
   import Logo from './Logo.svelte'
-
+  import { vars } from '$lib/styles/styles.css'
 </script>
 
 <header>
@@ -10,7 +10,7 @@
     <a href="/#contact">Contact</a>
   </nav>
 
-  <figure>
+  <figure style="background-color: {vars.colors.grey};">
     <Logo />
     <figcaption>Monthly Studio</figcaption>
   </figure>
@@ -23,10 +23,13 @@
     left: 0;
     width: 100%;
     text-align: center;
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
   }
 
   nav a {
-    text-decoration: none;
     display: inline-block;
     padding: 1rem;
   }
@@ -38,13 +41,6 @@
     }
   }
 
-  nav a:hover,
-  nav a:focus {
-    text-decoration: underline;
-    text-decoration-thickness: 0.1em;
-    text-underline-offset: 0.2em;
-  }
-
   figure {
     margin: 4rem 0 0;
     padding: 16vw;
@@ -52,5 +48,11 @@
 
   figcaption {
     font-size: 0;
+  }
+
+  @media screen and (max-width: 888px) {
+    figure {
+      margin-top: 3rem;
+    }
   }
 </style>

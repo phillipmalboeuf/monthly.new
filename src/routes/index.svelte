@@ -12,13 +12,13 @@
       href: 'https://online.getsquire.com/book/monthly-barber-mile-end-montreal-1/professional',
       photo: 'https://images.ctfassets.net/igsltvx7i8jl/2bpnU0hNypJCYzwocYngGX/72d25b87e4d368b0ba4444f05d6077fb/simon.jpg'
     },
-    {
-      name: 'Mitch Brown',
-      title: 'Barbier',
-      insta: '_mitchsbbarber',
-      href: 'https://online.getsquire.com/book/mitch-brown-barber-montreal/professional/mitch-brown',
-      photo: 'https://images.ctfassets.net/igsltvx7i8jl/6R5V61HjIzvwSn0yJuKVSm/23529110f792afbb50a6889b9262c807/mitch.jpg'
-    },
+    // {
+    //   name: 'Mitch Brown',
+    //   title: 'Barbier',
+    //   insta: '_mitchsbbarber',
+    //   href: 'https://online.getsquire.com/book/mitch-brown-barber-montreal/professional/mitch-brown',
+    //   photo: 'https://images.ctfassets.net/igsltvx7i8jl/6R5V61HjIzvwSn0yJuKVSm/23529110f792afbb50a6889b9262c807/mitch.jpg'
+    // },
     {
       name: 'Andy Cha',
       title: 'Barbier',
@@ -54,7 +54,7 @@
   <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
 </section>
 
-<section id="reservations" class="{grid({ columns: 3 })}">
+<section id="reservations" class="{grid({ columns: 2 })}">
   {#each barbers as { name, href, insta, title, photo }}
   <article>
     <center>

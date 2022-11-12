@@ -12,6 +12,13 @@
       href: 'https://online.getsquire.com/book/monthly-barber-mile-end-montreal-1/professional',
       photo: 'https://images.ctfassets.net/igsltvx7i8jl/2bpnU0hNypJCYzwocYngGX/72d25b87e4d368b0ba4444f05d6077fb/simon.jpg'
     },
+    {
+      name: 'Calum Anderson',
+      title: 'Barbier',
+      // insta: '',
+      href: 'https://online.getsquire.com/book/monthly-barber-mile-end-montreal-1/professional',
+      photo: 'https://images.ctfassets.net/igsltvx7i8jl/5JFYHhPWVrEd9W1EruG9Ss/1b435635f3e7ee3b3a9b770d62fba473/Barber.png'
+    },
     // {
     //   name: 'Mitch Brown',
     //   title: 'Barbier',
@@ -54,7 +61,7 @@
   <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
 </section>
 
-<section id="reservations" class="{grid({ columns: 2 })}">
+<section id="reservations" class="{grid({ columns: 3 })}">
   {#each barbers as { name, href, insta, title, photo }}
   <article>
     <center>

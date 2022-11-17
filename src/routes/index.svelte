@@ -26,13 +26,13 @@
     //   href: 'https://online.getsquire.com/book/mitch-brown-barber-montreal/professional/mitch-brown',
     //   photo: 'https://images.ctfassets.net/igsltvx7i8jl/6R5V61HjIzvwSn0yJuKVSm/23529110f792afbb50a6889b9262c807/mitch.jpg'
     // },
-    {
-      name: 'Andy Cha',
-      title: 'Barbier',
-      // insta: '_mitchsbbarber',
-      href: 'https://online.getsquire.com/book/andy-cha-montreal/barber/andy-cha-8',
-      photo: 'https://images.ctfassets.net/igsltvx7i8jl/5N0raa9TQOAzp4jU9T6oJS/adb00155216003310fed25254f532353/andy.jpg'
-    }
+    // {
+    //   name: 'Andy Cha',
+    //   title: 'Barbier',
+    //   // insta: '_mitchsbbarber',
+    //   href: 'https://online.getsquire.com/book/andy-cha-montreal/barber/andy-cha-8',
+    //   photo: 'https://images.ctfassets.net/igsltvx7i8jl/5N0raa9TQOAzp4jU9T6oJS/adb00155216003310fed25254f532353/andy.jpg'
+    // }
   ]
 
   const map = 'https://images.ctfassets.net/igsltvx7i8jl/6VqXMqVrHMeOd6ptrEih2d/c74219985ae574d9597d06b03cae533f/map_monthly.png'
@@ -61,7 +61,7 @@
   <h3>Plus qu'une chose revient de façon mensuelle dans la vie de l'homme d'aujourd'hui: une visite chez son barbier.</h3>
 </section>
 
-<section id="reservations" class="{grid({ columns: 3 })}">
+<section id="reservations" class="{grid({ columns: 2 })}">
   {#each barbers as { name, href, insta, title, photo }}
   <article>
     <center>
